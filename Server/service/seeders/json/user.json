@@ -1,0 +1,101 @@
+[
+    {
+        "username": "admin",
+        "fullName": "admin",
+        "email": "admin@mail.com",
+        "password": "password",
+        "phoneNumber": "0282929292",
+        "avatar": "adminDefault",
+        "role": "admin"
+    },
+    {
+        "username": "user1",
+        "fullName": "user1",
+        "email": "user1@mail.com",
+        "password": "password",
+        "phoneNumber": "08498384938493",
+        "avatar": "default",
+        "role": "patient"
+    },
+    {
+        "username": "user2",
+        "fullName": "user2",
+        "email": "user2@mail.com",
+        "password": "password",
+        "phoneNumber": "08498384938493",
+        "avatar": "default",
+        "role": "patient"
+    },
+    {
+        "username": "user3",
+        "fullName": "user3",
+        "email": "user3@mail.com",
+        "password": "password",
+        "phoneNumber": "08498384938493",
+        "avatar": "default",
+        "role": "patient"
+    },
+    {
+        "username": "user4",
+        "fullName": "user4",
+        "email": "user4@mail.com",
+        "password": "password",
+        "phoneNumber": "03843984938493843",
+        "avatar": "default",
+        "role": "patient"
+    },
+    {
+        "username": "user5",
+        "fullName": "user5",
+        "email": "user5@mail.com",
+        "password": "password",
+        "phoneNumber": "08498384938493",
+        "avatar": "default",
+        "role": "patient"
+    },
+    {
+        "username": "user6",
+        "fullName": "user6",
+        "email": "user6@mail.com",
+        "password": "password",
+        "phoneNumber": "08498384938493",
+        "avatar": "default",
+        "role": "patient"
+    },
+    {
+        "username": "user7",
+        "fullName": "user7",
+        "email": "user7@mail.com",
+        "password": "password",
+        "phoneNumber": "08498384938493",
+        "avatar": "default",
+        "role": "patient"
+    },
+    {
+        "username": "user8",
+        "fullName": "user8",
+        "email": "user8@mail.com",
+        "password": "password",
+        "phoneNumber": "08498384938493",
+        "avatar": "default",
+        "role": "patient"
+    },
+    {
+        "username": "user9",
+        "fullName": "user9",
+        "email": "user9@mail.com",
+        "password": "password",
+        "phoneNumber": "08498384938493",
+        "avatar": "default",
+        "role": "patient"
+    },
+    {
+        "username": "user10",
+        "fullName": "user10",
+        "email": "user10@mail.com",
+        "password": "password",
+        "phoneNumber": "08498384938493",
+        "avatar": "default",
+        "role": "patient"
+    }
+]

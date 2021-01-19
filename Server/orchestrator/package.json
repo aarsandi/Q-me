@@ -1,0 +1,17 @@
+{
+  "name": "orchestrator",
+  "version": "1.0.0",
+  "description": "qme-orchestrator side for microservice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.19.0",
+    "axios": "^0.21.1"
+  }
+}
