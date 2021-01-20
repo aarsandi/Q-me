@@ -12,7 +12,7 @@ router.post('/user/add', authentication, isAdmin, UserController.addUser)
 router.put('/user/edit/:id', authentication, authorization, UserController.editUser)
 router.delete('/user/delete/:id', authentication, isAdmin, UserController.deleteUser)
 
-router.get('/doctors/:by', authentication, DoctorController.browseDoctor)
+router.get('/doctors/:by', DoctorController.browseDoctor)
 router.post('/doctor/add', authentication, isAdmin, DoctorController.addDoctor)
 router.put('/doctor/edit/:id', authentication, isAdmin, DoctorController.editDoctor)
 router.delete('/doctor/delete/:id', authentication, isAdmin, DoctorController.deleteDoctor)

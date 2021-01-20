@@ -65,7 +65,7 @@ const typeDefs = gql`
 
     type Query {
         appointments(token: String): [Appointment]
-        doctors(token: String, by: Int): [Doctor]
+        doctors(by: Int): [Doctor]
         user(token: String, id: Int): User
     }
 
@@ -109,11 +109,7 @@ const resolvers = {
             return data
         },
         async doctors(parent, args) {
-            const {data} = await axios.get(`${service}/doctors/${args.by}`, {
-                headers: {
-                    token: args.token,
-                },
-            })
+            const {data} = await axios.get(`${service}/doctors/${args.by}`)
             return data
         },
         async user(parent, args) {

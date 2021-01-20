@@ -10,7 +10,6 @@ describe('Browse Doctor Route Tests', function() {
     test('success all doctor route',function(done) {
         request(app)
         .get('/doctors/7')
-        .set({'token': adminUserToken})
         .end(function(err, res) {
             if (err) throw err
             expect(res.status).toBe(200)
@@ -21,7 +20,6 @@ describe('Browse Doctor Route Tests', function() {
     test('success by day doctor route',function(done) {
         request(app)
         .get('/doctors/1')
-        .set({'token': adminUserToken})
         .end(function(err, res) {
             if (err) throw err
             expect(res.status).toBe(200)
