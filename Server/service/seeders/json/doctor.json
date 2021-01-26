@@ -3,7 +3,7 @@
         "name": "Alya",
         "queueIndex": "AD",
         "description": "dentist",
-        "avatar": "default",
+        "avatar": "",
         "availableAt": "[{\"name\":\"Minggu\",\"id\":0},{\"name\":\"Selasa\",\"id\":2}]",
         "policlinic": "Dental",
         "maxCapacity": 10
@@ -12,7 +12,7 @@
         "name": "Johnson",
         "queueIndex": "GJ",
         "description": "general",
-        "avatar": "default",
+        "avatar": "",
         "availableAt": "[{\"name\":\"Senin\",\"id\":1},{\"name\":\"Rabu\",\"id\":3},{\"name\":\"Kamis\",\"id\":4}]",
         "policlinic": "Umum",
         "maxCapacity": 10
@@ -21,7 +21,7 @@
         "name": "Syifa",
         "queueIndex": "GS",
         "description": "general",
-        "avatar": "default",
+        "avatar": "",
         "availableAt": "[{\"name\":\"Senin\",\"id\":1},{\"name\":\"Sabtu\",\"id\":6},{\"name\":\"Jumat\",\"id\":5}]",
         "policlinic": "Umum",
         "maxCapacity": 10
